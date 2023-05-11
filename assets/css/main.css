@@ -1,8 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
-  color: #333;
+  font-family: 'Georgia', serif;
+  color: #444;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
 header {
@@ -13,6 +14,8 @@ header {
 header h1 {
   text-align: center;
   margin: 0;
+  font-size: 2em;
+  color: #333;
 }
 
 nav ul {
@@ -29,50 +32,41 @@ nav ul li {
 nav ul li a {
   color: #333;
   text-decoration: none;
+  font-size: 1.1em;
 }
 
 main {
   padding: 20px;
+  background-color: #fff;
+  color: #333;
 }
 
 footer {
   background-color: #f9f9f9;
   padding: 20px 0;
   text-align: center;
+  font-size: 0.9em;
 }
 
 .hero {
   background-color: #ffecd1;
   padding: 30px;
   text-align: center;
+  color: #6b372c;
 }
 
 .advice-categories {
   background-color: #fff;
   padding: 20px;
   margin: 20px 0;
-}
-
-.advice-categories ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-}
-
-.advice-categories ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-.advice-categories ul li a {
-  color: #333;
-  text-decoration: none;
+  color: #6b372c;
 }
 
 .recent-posts {
   background-color: #fff;
   padding: 20px;
   margin: 20px 0;
+  color: #6b372c;
 }
 
 .testimonials {
@@ -84,4 +78,5 @@ footer {
 .testimonials p {
   font-style: italic;
   text-align: center;
+  color: #6b372c;
 }
