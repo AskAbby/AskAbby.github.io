@@ -45,6 +45,21 @@ body {
 	margin: 2em 0;
 }
 
+.post {
+	background: #fff;
+	padding: 1em;
+	margin-bottom: 2em;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.post-title {
+	margin-top: 0;
+}
+
+.post-content {
+	margin-top: 2em;
+}
+
 .post-list {
 	list-style-type: none;
 	padding: 0;
