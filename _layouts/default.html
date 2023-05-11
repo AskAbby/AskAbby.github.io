@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>{{ page.title }}</title>
-	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-	{% include navbar.html %}
-	<main>
-		{{ content }}
-	</main>
+  <header>
+	<h1>Ask Abby</h1>
+	<nav>
+	  <ul>
+		<li><a href="{{ '/' | relative_url }}">Home</a></li>
+		<li><a href="{{ '/about' | relative_url }}">About</a></li>
+		<li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+	  </ul>
+	</nav>
+  </header>
+
+  <main>
+	{{ content }}
+  </main>
+
+  <footer>
+	<p>&copy; 2023 Ask Abby. All rights reserved.</p>
+  </footer>
 </body>
-</html> 
+</html>
