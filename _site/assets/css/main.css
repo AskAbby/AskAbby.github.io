@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.navbar {
+	background: #333;
+	color: #fff;
+	overflow: hidden;
+}
+
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar .navbar-brand {
+	font-size: 20px;
+	float: left;
+	padding: 14px 16px;
+}
+
+.navbar .navbar-menu {
+	float: right;
+	list-style-type: none;
+}
+
+.navbar .navbar-menu li {
+	float: left;
+}
+
+.navbar .navbar-menu li a {
+	display: block;
+	padding: 14px 16px;
+}
+
+.blog-title {
+	margin: 2em 0;
+}
+
+.post-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.post-list h2 {
+	margin-bottom: 0;
+}
+
+.post-list .post-meta {
+	color: #777;
+}
