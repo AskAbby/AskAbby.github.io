@@ -22,7 +22,7 @@ title: Ask Abby Anything
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ask Abby Is Here For You
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/AskAbby" # the subpath of your site, e.g. /blog
 url: "https://askabby.github.io/AskAbby" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
