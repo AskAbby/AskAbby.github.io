@@ -8,8 +8,13 @@ title: Home
 ---
 
 <section class="hero">
-  <h2>Welcome to Ask Abby</h2>
-  <p>Your go-to source for advice on relationships, family, careers, and more.</p>
+  <h1>Welcome to Ask Abby</h1>
+	<p>Have a question? Ask Abby below:</p>
+	
+	<form action="/path-to-your-server-function" method="post">
+	  <input type="text" id="question" name="question" placeholder="Type your question here">
+	  <input type="submit" value="Ask Abby">
+	</form>
 </section>
 
 <section class="advice-categories">
